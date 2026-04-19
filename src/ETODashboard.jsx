@@ -109,7 +109,7 @@ export default function ETODashboard() {
   const tabs = ["overview", "employees", "upskilling", "ROI"];
 
   return (
-    <div style={{ fontFamily: "'DM Sans', 'Helvetica Neue', sans-serif", background: KF_CREAM, minHeight: "100vh", color: KF_TEXT }}>
+    <div style={{ fontFamily: "'DM Sans', 'Helvetica Neue', sans-serif", background: KF_CREAM, minHeight: "100%", color: KF_TEXT }}>
       {/* Header */}
       <div style={{ background: KF_GREEN, padding: "20px 32px", display: "flex", alignItems: "center", justifyContent: "space-between" }}>
         <div>
